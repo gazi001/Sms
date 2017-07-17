@@ -21,7 +21,9 @@ namespace SMSapi.Api
             {
                 //序列化实体
                 SendSmsRequset smsRequest = JsonHelper.ScriptDeserialize<SendSmsRequset>(RequestData);
-
+                var sendsms = new SmsPort.SmsPortSoapClient("SmsPortSoap");
+                var result= sendsms.SendSms(smsRequest.Epid, smsRequest.UserName, smsRequest.PassWord, smsRequest.Phone, smsRequest.Content);
+                context.Response.Write(result);
             }
             catch (Exception)
             {
