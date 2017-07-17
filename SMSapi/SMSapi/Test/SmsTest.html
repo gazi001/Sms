@@ -13,16 +13,43 @@
                 PassWord: 'bb',
                 Phone: '18989841642'
             };
+            
+            var a =
+                {
+                    smslist:
+                        [
+                            {
+                                phone: "18989841642",
+                                info: '内容',
+                                spnumbe: '拓展'
+                            },
+                             {
+                                 phone: "18989841642",
+                                 info: '内容',
+                                 spnumbe: '拓展'
+                             },
+                              {
+                                  phone: "18989841642",
+                                  info: '内容',
+                                  spnumbe: '拓展'
+                              },
+                               {
+                                   phone: "18989841642",
+                                   info: '内容',
+                                   spnumbe: '拓展'
+                               }
+                        ]
+                }
             $.ajax({
                 url: '../Api/SendSms.ashx',
                 type: 'POST',
                 dataType: 'json',
                 data: {
-                    PostData: JSON.stringify(PostData),
+                    PostData: JSON.stringify(a),
                 },
                 success: function (res) {
                   
-                    alert();
+                    alert(res);
                 },
                 error: function (res) {
                     alert(res)

@@ -1,7 +1,8 @@
 D:\project\Sms\SMSapi\SMSapi\bin\SMSapi.dll
 D:\project\Sms\SMSapi\SMSapi\bin\SMSapi.pdb
-D:\project\Sms\SMSapi\SMSapi\obj\Debug\SMSapi.csprojResolveAssemblyReference.cache
 D:\project\Sms\SMSapi\SMSapi\obj\Debug\SMSapi.dll
 D:\project\Sms\SMSapi\SMSapi\obj\Debug\SMSapi.pdb
-D:\project\Sms\SMSapi\SMSapi\bin\RM.Common.dll
-D:\project\Sms\SMSapi\SMSapi\bin\RM.Common.pdb
+D:\project\Sms\SMSapi\SMSapi\obj\Debug\SMSapi.csprojResolveAssemblyReference.cache
+D:\project\Sms\SMSapi\SMSapi\bin\EntityFramework.dll
+D:\project\Sms\SMSapi\SMSapi\bin\EntityFramework.xml
+D:\project\Sms\SMSapi\SMSapi\bin\zh-Hans\EntityFramework.resources.dll
